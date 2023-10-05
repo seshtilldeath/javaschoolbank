@@ -12,7 +12,7 @@ public class BaseBankAccount {
         this.owner = owner;
         this.bankAccountNumber = bankAccountNumber;
         this.balance = balance;
-        //Bank.bankAccounts.add(this);
+        Bank.bankAccounts.add(this);
     }
 
     public double getBlanace() {

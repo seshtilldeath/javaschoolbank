@@ -6,10 +6,11 @@ import me.school.moneytransfer.Fee;
 import me.school.moneytransfer.MoneyTransfer;
 import me.school.persons.Owner;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Bank {
-    //public static List<BaseBankAccount> bankAccounts;
+    public static List<BaseBankAccount> bankAccounts = new ArrayList<>();
 
     public void run() throws Exception {
         StundentBankAccount bankAccount = new StundentBankAccount(new Owner("Pepa", "Ripa"), "98237582935", 1000D);
