@@ -1,5 +1,6 @@
 package me.school.account;
 
+import me.school.Bank;
 import me.school.persons.Owner;
 
 public class BaseBankAccount {
@@ -11,6 +12,7 @@ public class BaseBankAccount {
         this.owner = owner;
         this.bankAccountNumber = bankAccountNumber;
         this.balance = balance;
+        //Bank.bankAccounts.add(this);
     }
 
     public double getBlanace() {
