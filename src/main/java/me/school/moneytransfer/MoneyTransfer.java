@@ -5,11 +5,11 @@ import me.school.moneytransfer.Fee;
 
 public class MoneyTransfer {
     private final SourceValidationService sourceValidationService;
-    private final Fee fee;
+    private final Fee feee;
 
     public MoneyTransfer() {
         this.sourceValidationService = new SourceValidationService();
-        this.fee = new Fee();
+        this.feee = new Fee();
     }
 
     public void transferMoney(BaseBankAccount sourceAccount, BaseBankAccount destinationAccount, double value) throws Exception {
